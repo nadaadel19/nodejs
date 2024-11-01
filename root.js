@@ -1,12 +1,12 @@
 const express = require('express')
 const app = express()
-const PORT  = 4001
+const PORT  = 4008
 const HOST = '0.0.0.0'
 
 // post get put delete 
 
 app.get('/', (req, res)=>{
-    res.send("hello to our image !!!")
+    res.send("hello to our image !")
 
 })
 
